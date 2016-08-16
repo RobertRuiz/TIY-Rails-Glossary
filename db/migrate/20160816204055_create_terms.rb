@@ -4,7 +4,7 @@ class CreateTerms < ActiveRecord::Migration[5.0]
       t.string :name
       t.string :definition
       t.string :author
-      t.interger :category_id
+      t.integer :category_id
       t.string :web_link
 
       t.timestamps
